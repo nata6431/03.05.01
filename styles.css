@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     top: 0;
     left: 0;
-    height: 100vw;
+    height: 56.25vw;
     width: 100vw;
     background-size: 100%;
     position: relative;
@@ -14,19 +14,29 @@
 #fig1 {
     background-image: url(billeder/iphonestartsnap.svg);
     background-repeat: no-repeat;
-    width: 35vw;
-    height: 59vw;
+    width: 34vw;
+    height: 58vw;
     position: absolute;
     background-size: 100%;
     cursor: pointer;
-    top: -2vw;
+    top: -1vw;
+    left: 10vw;
+}
+
+#fig2 {
+    background-image: url(billeder/tissemand.svg);
+    background-repeat: no-repeat;
+    width: 34vw;
+    height: 58vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: -1.1vw;
     left: 10vw;
 }
 
 .hide {
     display: none;
 }
-
-
 
 /***********************Caroline slut*******************/
