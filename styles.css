@@ -1,11 +1,7 @@
-<<<<<<< HEAD
 * {
     margin: 0;
     overflow: hidden;
 }
-=======
-/***********************Caroline*************************/
->>>>>>> origin/master
 
 #game_background {
     position: relative;
@@ -16,7 +12,9 @@
 }
 
 
+
 #settings {
+    background-image: url("billeder/setting_ikon.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     width: 7vw;
@@ -24,7 +22,7 @@
     position: absolute;
     top: 2vw;
     left: 90vw;
-    z-index: 1;
+    z-index: 2;
 }
 
 #settings_screen {
@@ -52,7 +50,57 @@
     z-index: 2;
 }
 
+#sfx_on {
+    background-image: url(billeder/pause.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 17vw;
+    top: 23vw;
 
+    width: 10vw;
+    height: 15vw;
+    background-size: 100%;
+    z-index: 4;
+}
 
+#sfx_off {
+    background-image: url(billeder/play.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 17vw;
+    top: 23vw;
 
-/***********************Caroline slut*******************/
+    width: 11vw;
+    height: 15vw;
+    background-size: 100%;
+    z-index: 4;
+}
+
+#music_on {
+    background-image: url(billeder/pause.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 53vw;
+    top: 23vw;
+
+    width: 10vw;
+    height: 15vw;
+    background-size: 100%;
+    z-index: 4;
+}
+
+#music_off {
+    background-image: url(billeder/play.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 53vw;
+    top: 23vw;
+    width: 11vw;
+    height: 15vw;
+    background-size: 100%;
+    z-index: 4;
+}
+
+.hide {
+    display: none;
+}
