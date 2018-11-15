@@ -4,21 +4,42 @@
 }
 
 #game_background {
-<<<<<<< HEAD
     background-image: url(billeder/baggrundsskaerm.svg);
     background-repeat: no-repeat;
     top: 0;
     left: 0;
     height: 56.25vw;
-=======
-    position: relative;
-    background-image: url("billeder/baggrundsskaerm.svg");
-    background-size: cover;
->>>>>>> origin/master
     width: 100vw;
-    height: 56.25vw;
+    position: relative;
+    background-size: cover;
+
 }
 
+#fig1 {
+    background-image: url(billeder/iphonestartsnap.svg);
+    background-repeat: no-repeat;
+    width: 34vw;
+    height: 58vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: -1vw;
+    left: 10vw;
+    z-index: 2;
+}
+
+#fig2 {
+    background-image: url(billeder/tissemand.svg);
+    background-repeat: no-repeat;
+    width: 34vw;
+    height: 58vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: -1.1vw;
+    left: 10vw;
+    z-index: 2;
+}
 
 
 #settings {
@@ -34,25 +55,18 @@
 }
 
 #settings_screen {
-    text-align: center;
     position: absolute;
     width: 100vw;
     height: 50vw;
     background-image: url(billeder/settingscreen_background.svg);
     background-size: 80%;
     background-repeat: no-repeat;
-<<<<<<< HEAD
-    width: 34vw;
-    height: 58vw;
-=======
     top: 2vw;
     left: 10vw;
-    border-radius: 2vw;
     z-index: 2;
 }
 
 #settings_close {
->>>>>>> origin/master
     position: absolute;
     left: 70vw;
     top: 2vw;
@@ -60,26 +74,10 @@
     height: 4vw;
     background-image: url(billeder/kryds.svg);
     background-size: 100%;
-<<<<<<< HEAD
     cursor: pointer;
-    top: -1vw;
-    left: 10vw;
 }
 
-#fig2 {
-    background-image: url(billeder/tissemand.svg);
-    background-repeat: no-repeat;
-    width: 34vw;
-    height: 58vw;
-    position: absolute;
-    background-size: 100%;
-    cursor: pointer;
-    top: -1.1vw;
-    left: 10vw;
-=======
-    z-index: 2;
->>>>>>> origin/master
-}
+
 
 #sfx_on {
     background-image: url(billeder/pause.svg);
@@ -107,9 +105,6 @@
     z-index: 4;
 }
 
-<<<<<<< HEAD
-/***********************Caroline slut*******************/
-=======
 #music_on {
     background-image: url(billeder/pause.svg);
     position: absolute;
@@ -138,4 +133,5 @@
 .hide {
     display: none;
 }
->>>>>>> origin/master
+
+> > > > > > > origin/master > > > > > > > origin/master
