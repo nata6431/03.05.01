@@ -11,6 +11,11 @@
      console.log("showStart");
      document.querySelector("#settings").addEventListener("click", showSettings);
      startGame();
+
+     document.querySelector("#ond").classList.add("gaa");
+     document.querySelector("#play").classList.remove("hide");
+     document.querySelector("#play").classList.add("pulse");
+     document.querySelector("#play").addEventListener("click", hideStart);
  }
 
  function startGame() {
