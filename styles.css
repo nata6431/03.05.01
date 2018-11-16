@@ -41,6 +41,175 @@
     z-index: 2;
 }
 
+#fig3 {
+    background-image: url(billeder/pigeiphone1.svg);
+    background-repeat: no-repeat;
+    width: 34vw;
+    height: 58vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: -1.1vw;
+    left: 10vw;
+    z-index: 2;
+}
+
+#fig4 {
+    background-image: url(billeder/pigeiphone2.svg);
+    background-repeat: no-repeat;
+    width: 34vw;
+    height: 58vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: -1.1vw;
+    left: 10vw;
+    z-index: 2;
+}
+
+#fig5 {
+    background-image: url(billeder/drengiphone.svg);
+    background-repeat: no-repeat;
+    width: 34vw;
+    height: 58vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: -1.1vw;
+    left: 10vw;
+    z-index: 2;
+}
+
+#fig6 {
+    background-image: url(billeder/sp%C3%B8rgsm%C3%A5lbobbel3.svg);
+    background-repeat: no-repeat;
+    width: 43vw;
+    height: 30vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: 10vw;
+    left: 50vw;
+    z-index: 2;
+}
+
+#fig7 {
+    background-image: url(billeder/sp%C3%B8rgsm%C3%A5lbobbel2.svg);
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 30vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: 10vw;
+    left: 50vw;
+    z-index: 2;
+}
+
+#fig8 {
+    background-image: url(billeder/sp%C3%B8rgsm%C3%A5lbobbel1.svg);
+    background-repeat: no-repeat;
+    width: 43vw;
+    height: 30vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: 10vw;
+    left: 50vw;
+    z-index: 2;
+}
+
+#fig9 {
+    background-image: url(billeder/svar1.svg);
+    background-repeat: no-repeat;
+    width: 35vw;
+    height: 15vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: 20vw;
+    left: 42vw;
+    z-index: 2;
+}
+
+#fig10 {
+    background-image: url(billeder/svar2.svg);
+    background-repeat: no-repeat;
+    width: 36vw;
+    height: 15vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: 34vw;
+    left: 62vw;
+    z-index: 2;
+}
+
+#fig11 {
+    background-image: url(billeder/svar3.svg);
+    background-repeat: no-repeat;
+    width: 35vw;
+    height: 15vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: 20vw;
+    left: 42vw;
+    z-index: 2;
+}
+
+#fig12 {
+    background-image: url(billeder/svar4.svg);
+    background-repeat: no-repeat;
+    width: 36vw;
+    height: 15vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: 34vw;
+    left: 62vw;
+    z-index: 2;
+}
+
+#fig13 {
+    background-image: url(billeder/svar5.svg);
+    background-repeat: no-repeat;
+    width: 35vw;
+    height: 15vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: 20vw;
+    left: 42vw;
+    z-index: 2;
+}
+
+#fig14 {
+    background-image: url(billeder/svar6.svg);
+    background-repeat: no-repeat;
+    width: 36vw;
+    height: 15vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: 34vw;
+    left: 62vw;
+    z-index: 2;
+}
+
+#fig15 {
+    background-image: url(billeder/starttekst.svg);
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 22vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: 17vw;
+    left: 45vw;
+    z-index: 2;
+}
+
 
 #settings {
     background-image: url("billeder/setting_ikon.svg");
@@ -133,5 +302,3 @@
 .hide {
     display: none;
 }
-
-> > > > > > > origin/master > > > > > > > origin/master
