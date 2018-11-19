@@ -1,28 +1,4 @@
-<<<<<<< HEAD
-//Caroline start//
-window.addEventListener("load", sidenVises);
-
-function sidenVises() {
-    console.log("siden vises");
-    showStart();
-}
-
-function showStart() {
-    console.log("show start");
-    startGame();
-
-}
-
-function startGame() {
-    console.log("start game");
-    document.querySelector("#fig1").classList.remove("hide");
-    document.querySelector("#fig1").addEventListener("click", showDick);
-=======
 let showSettingsEffektSound = true;
-
-//Natalie S. Start
->>>>>>> origin/master
-
 window.addEventListener("load", sidenVises);
 
 function sidenVises() {
@@ -33,7 +9,17 @@ function sidenVises() {
 function showStart() {
     console.log("showStart");
     document.querySelector("#settings").addEventListener("click", showSettings);
+    startGame();
 }
+
+function startGame() {
+    console.log("start game");
+    document.querySelector("#fig1").classList.remove("hide");
+    document.querySelector("#fig1").addEventListener("click", showDick);
+    document.querySelector("#musik").play();
+}
+
+
 
 function showSettings() {
     console.log("showSettings");
@@ -71,11 +57,6 @@ function toggleSounds() {
     }
 }
 
-<<<<<<< HEAD
-function showDick() {
-    document.querySelector("#fig1").classList.add("hide");
-    document.querySelector("#fig2").classList.remove("hide");
-=======
 function toggleMusic() {
 
     console.log("toggleMusic");
@@ -88,8 +69,9 @@ function toggleMusic() {
         document.querySelector("#music_off").classList.remove("hide")
         document.querySelector("#musik").muted = true;
     }
->>>>>>> origin/master
 }
 
-
-//Natalie S. slut
+function showDick() {
+    document.querySelector("#fig1").classList.add("hide");
+    document.querySelector("#fig2").classList.remove("hide");
+}
