@@ -79,14 +79,6 @@ function toggleMusic() {
     }
 }
 
-
-
-
-
-
-
-
-
 function showDick() {
     document.querySelector("#fig1").classList.add("hide");
     document.querySelector("#fig2").classList.remove("hide");
