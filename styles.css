@@ -12,7 +12,10 @@
     width: 100vw;
     position: relative;
     background-size: cover;
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 }
 
 #fig1 {
@@ -169,6 +172,560 @@
 
 }
 
+<<<<<<< HEAD
+#fig13 {
+    background-image: url(billeder/svar5.svg);
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+#fig1 {
+    background-image: url(billeder/iphonestartsnap.svg);
+>>>>>>> origin/master
+    background-repeat: no-repeat;
+    width: 27vw;
+    height: 12vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+<<<<<<< HEAD
+    top: 40vw;
+    left: 43vw;
+
+}
+
+#fig14 {
+    background-image: url(billeder/svar6.svg);
+    background-repeat: no-repeat;
+    width: 27vw;
+    height: 12vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: 40vw;
+    left: 70vw;
+}
+
+#fig15 {
+    background-image: url(billeder/starttekst.svg);
+=======
+    top: -1vw;
+    left: 10vw;
+
+}
+
+#fig2 {
+    background-image: url(billeder/tissemand.svg);
+    background-repeat: no-repeat;
+    width: 34vw;
+    height: 58vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: -1.1vw;
+    left: 10vw;
+
+}
+
+#fig3 {
+    background-image: url(billeder/pigeiphone1.svg);
+>>>>>>> origin/master
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 22vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+<<<<<<< HEAD
+    top: 17vw;
+    left: 45vw;
+}
+
+#fig16 {
+    background-image: url(billeder/pil.svg);
+=======
+    top: -1.1vw;
+    left: 10vw;
+
+}
+
+#fig4 {
+    background-image: url(billeder/pigeiphone2.svg);
+>>>>>>> origin/master
+    background-repeat: no-repeat;
+    width: 7vw;
+    height: 5vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+<<<<<<< HEAD
+=======
+    top: -1.1vw;
+    left: 10vw;
+
+}
+
+#fig5 {
+    background-image: url(billeder/drengiphone.svg);
+    background-repeat: no-repeat;
+    width: 34vw;
+    height: 58vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: -1.1vw;
+    left: 10vw;
+
+}
+
+#fig6 {
+    background-image: url(billeder/sp%C3%B8rgsm%C3%A5lbobbel3.svg);
+    background-repeat: no-repeat;
+    width: 43vw;
+    height: 30vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: 10vw;
+    left: 50vw;
+}
+
+#fig7 {
+    background-image: url(billeder/sp%C3%B8rgsm%C3%A5lbobbel2.svg);
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 30vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: 10vw;
+    left: 50vw;
+
+}
+
+#fig8 {
+    background-image: url(billeder/sp%C3%B8rgsm%C3%A5lbobbel1.svg);
+    background-repeat: no-repeat;
+    width: 43vw;
+    height: 30vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: 10vw;
+    left: 50vw;
+}
+
+#fig9 {
+    background-image: url(billeder/svar1.svg);
+    background-repeat: no-repeat;
+    width: 27vw;
+    height: 12vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: 40vw;
+    left: 43vw;
+
+}
+
+#fig10 {
+    background-image: url(billeder/svar2.svg);
+    background-repeat: no-repeat;
+    width: 27vw;
+    height: 12vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: 40vw;
+    left: 70vw;
+
+}
+
+#fig11 {
+    background-image: url(billeder/svar3.svg);
+    background-repeat: no-repeat;
+    width: 27vw;
+    height: 12vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: 40vw;
+    left: 43vw;
+
+}
+
+#fig12 {
+    background-image: url(billeder/svar4.svg);
+    background-repeat: no-repeat;
+    width: 27vw;
+    height: 12vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: 40vw;
+    left: 70vw;
+
+}
+
 #fig13 {
     background-image: url(billeder/svar5.svg);
     background-repeat: no-repeat;
@@ -214,6 +771,7 @@
     position: absolute;
     background-size: 100%;
     cursor: pointer;
+>>>>>>> origin/master
     top: 32vw;
     left: 87vw;
 
@@ -254,8 +812,11 @@
     background-size: 100%;
     cursor: pointer;
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/master
 
 #sfx_on {
     background-image: url(billeder/pause.svg);
@@ -312,6 +873,33 @@
     display: none;
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> origin/master
 #liv {
     background: url(billeder/liv.svg);
     position: absolute;
@@ -324,7 +912,10 @@
     justify-content: flex-start;
     background-repeat: no-repeat;
     flex-direction: column;
+<<<<<<< HEAD
     flex-direction: column;
+=======
+>>>>>>> origin/master
 
 }
 
