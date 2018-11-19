@@ -25,7 +25,7 @@
     cursor: pointer;
     top: -1vw;
     left: 10vw;
-    z-index: 2;
+
 }
 
 #fig2 {
@@ -38,7 +38,7 @@
     cursor: pointer;
     top: -1.1vw;
     left: 10vw;
-    z-index: 2;
+
 }
 
 #fig3 {
@@ -51,7 +51,7 @@
     cursor: pointer;
     top: -1.1vw;
     left: 10vw;
-    z-index: 2;
+
 }
 
 #fig4 {
@@ -64,7 +64,7 @@
     cursor: pointer;
     top: -1.1vw;
     left: 10vw;
-    z-index: 2;
+
 }
 
 #fig5 {
@@ -77,7 +77,7 @@
     cursor: pointer;
     top: -1.1vw;
     left: 10vw;
-    z-index: 2;
+
 }
 
 #fig6 {
@@ -90,7 +90,6 @@
     cursor: pointer;
     top: 10vw;
     left: 50vw;
-    z-index: 2;
 }
 
 #fig7 {
@@ -103,7 +102,7 @@
     cursor: pointer;
     top: 10vw;
     left: 50vw;
-    z-index: 2;
+
 }
 
 #fig8 {
@@ -116,85 +115,83 @@
     cursor: pointer;
     top: 10vw;
     left: 50vw;
-    z-index: 2;
 }
 
 #fig9 {
     background-image: url(billeder/svar1.svg);
     background-repeat: no-repeat;
-    width: 35vw;
-    height: 15vw;
+    width: 27vw;
+    height: 12vw;
     position: absolute;
     background-size: 100%;
     cursor: pointer;
-    top: 20vw;
-    left: 42vw;
-    z-index: 2;
+    top: 40vw;
+    left: 43vw;
+
 }
 
 #fig10 {
     background-image: url(billeder/svar2.svg);
     background-repeat: no-repeat;
-    width: 36vw;
-    height: 15vw;
+    width: 27vw;
+    height: 12vw;
     position: absolute;
     background-size: 100%;
     cursor: pointer;
-    top: 34vw;
-    left: 62vw;
-    z-index: 2;
+    top: 40vw;
+    left: 70vw;
+
 }
 
 #fig11 {
     background-image: url(billeder/svar3.svg);
     background-repeat: no-repeat;
-    width: 35vw;
-    height: 15vw;
+    width: 27vw;
+    height: 12vw;
     position: absolute;
     background-size: 100%;
     cursor: pointer;
-    top: 20vw;
-    left: 42vw;
-    z-index: 2;
+    top: 40vw;
+    left: 43vw;
+
 }
 
 #fig12 {
     background-image: url(billeder/svar4.svg);
     background-repeat: no-repeat;
-    width: 36vw;
-    height: 15vw;
+    width: 27vw;
+    height: 12vw;
     position: absolute;
     background-size: 100%;
     cursor: pointer;
-    top: 34vw;
-    left: 62vw;
-    z-index: 2;
+    top: 40vw;
+    left: 70vw;
+
 }
 
 #fig13 {
     background-image: url(billeder/svar5.svg);
     background-repeat: no-repeat;
-    width: 35vw;
-    height: 15vw;
+    width: 27vw;
+    height: 12vw;
     position: absolute;
     background-size: 100%;
     cursor: pointer;
-    top: 20vw;
-    left: 42vw;
-    z-index: 2;
+    top: 40vw;
+    left: 43vw;
+
 }
 
 #fig14 {
     background-image: url(billeder/svar6.svg);
     background-repeat: no-repeat;
-    width: 36vw;
-    height: 15vw;
+    width: 27vw;
+    height: 12vw;
     position: absolute;
     background-size: 100%;
     cursor: pointer;
-    top: 34vw;
-    left: 62vw;
-    z-index: 2;
+    top: 40vw;
+    left: 70vw;
 }
 
 #fig15 {
@@ -207,7 +204,19 @@
     cursor: pointer;
     top: 17vw;
     left: 45vw;
-    z-index: 2;
+}
+
+#fig16 {
+    background-image: url(billeder/pil.svg);
+    background-repeat: no-repeat;
+    width: 7vw;
+    height: 5vw;
+    position: absolute;
+    background-size: 100%;
+    cursor: pointer;
+    top: 32vw;
+    left: 87vw;
+
 }
 
 
@@ -301,4 +310,77 @@
 
 .hide {
     display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#liv {
+    background: url(billeder/liv.svg);
+    position: absolute;
+    background-size: 100%;
+    height: 25vw;
+    width: 8vw;
+    top: 1vw;
+    left: 1vw;
+    display: flex;
+    justify-content: flex-start;
+    background-repeat: no-repeat;
+    flex-direction: column;
+
+}
+
+.heart {
+    width: 5vw;
+    height: 5vw;
+    background-repeat: no-repeat;
+    background-image: url(billeder/heart.svg);
+    background-size: 100%;
+    margin-top: 1.3vw;
+
+}
+
+.heart:first-child {
+    margin-left: 1.5vw;
+}
+
+.dissappear {
+    animation-name: dissappear_kf;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(.59, -0.56, .77, 1.34);
+    animation-fill-mode: forwards;
+}
+
+@keyframes dissappear_kf {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(0);
+    }
 }
