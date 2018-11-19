@@ -12,8 +12,6 @@
     width: 100vw;
     position: relative;
     background-size: cover;
-
-<<<<<<< HEAD
 }
 
 
@@ -398,20 +396,6 @@
 
 
 
-#fig1 {
-    background-image: url(billeder/iphonestartsnap.svg);
-    background-repeat: no-repeat;
-    width: 34vw;
-    height: 58vw;
-    position: absolute;
-    background-size: 100%;
-    cursor: pointer;
-    top: -1vw;
-    left: 10vw;
-    z-index: 2;
-}
-
-=======
 }
 
 #fig1 {
@@ -427,7 +411,6 @@
 
 }
 
->>>>>>> origin/master
 #fig2 {
     background-image: url(billeder/tissemand.svg);
     background-repeat: no-repeat;
@@ -654,11 +637,6 @@
     background-size: 100%;
     cursor: pointer;
 }
-<<<<<<< HEAD
-=======
-
-
->>>>>>> origin/master
 
 #sfx_on {
     background-image: url(billeder/pause.svg);
@@ -714,11 +692,6 @@
 .hide {
     display: none;
 }
-<<<<<<< HEAD
-=======
-
-<<<<<<< HEAD
-
 
 
 
@@ -790,7 +763,3 @@
         transform: scale(0);
     }
 }
-=======
-> > > > > > > origin/master > > > > > > > origin/master
->>>>>>> origin/master
->>>>>>> origin/master
