@@ -11,7 +11,7 @@
 <body>
 
     <div id="screen">
-        <div id="menu_background">
+        <div id="menu_background" class="hide">
             <div id="fig"></div>
             <div id="fig"></div>
             <div id="fig"></div>
@@ -25,94 +25,159 @@
 
 
         <div id="game">
-            <div id="game_background"></div>
+            <div id="game_background" class="hide"></div>
 
             <div id="game_elements">
-                <!--snap-->
-                <div id="fig1" class="hide"></div>
-                <!--             dickpic   -->
-                <div id="fig2" class="hide"></div>
-                <!--        sød pige        -->
-                <div id="fig4" class="hide"></div>
-                <!--                ond pige-->
-                <div id="fig3" class="hide"></div>
-                <!--                dreng-->
-                <div id="fig5" class="hide"></div>
-                <!--                spørgsmål til sødpige-->
-                <div id="fig6" class="hide"></div>
-                <!--                spørgsmål om ond pige-->
-                <div id="fig7" class="hide"></div>
-                <!--              spørgsmål om dreng  -->
-                <div id="fig8" class="hide"></div>
-                <!--                svar på sød pige spørgsmål-->
-                <div id="fig9" class="hide wrong"></div>
-                <div id="fig10" class="hide right"></div>
-                <!--                svar på ond pige spørgsmål-->
-                <div id="fig11" class="hide right"></div>
-                <div id="fig12" class="hide wrong"></div>
-                <!--                svar på drengens spørgsmål-->
-                <div id="fig13" class="hide wrong"></div>
-                <div id="fig14" class="hide right"></div>
-                <div id="fig15" class="hide"></div>
-                <div id="fig16" class="hide"></div>
-
-            </div>
-
-            <div id="game_ui">
-                <div id="liv">
-                    <div id="heart1" class="heart"></div>
-                    <div id="heart2" class="heart"></div>
-                    <div id="heart3" class="heart"></div>
-                </div>
-
-            </div>
-        </div>
-
-        <div id="start"></div>
-        <div id="settings"></div>
-        <div id="settings_screen" class="hide">
-
-            <div id="setting_effekt_sound">
-
-                <div id="sfx">
-                    <div id="sfx_on" class=""></div>
-
-                </div>
-
-                <div id="sfx">
-                    <div id="sfx_off" class="hide"></div>
-
-                </div>
-
-            </div>
-            <div id="setting_music">
-                <div id="setting_music_sound">
-
-                    <div id="music">
-                        <div id="music_on"></div>
-
+                <!--Startskærm kode-->
+                <div id="screen">
+                    <div id="menu_background" class="hide"></div>
+                    <div id="menu_elements">
+                        <div id="ond"></div>
+                        <div id="pige1"></div>
+                        <div id="pige2"></div>
+                        <div id="pige3"></div>
+                        <div id="play" class="hide"></div>
                     </div>
+                    <!--Startskærm kode slut-->
 
-                    <div id="music1">
-                        <div id="music_off" class="hide"></div>
+                    <!--snap-->
+                    <div id="fig1" class="hide"></div>
+                    <!--             dickpic   -->
+                    <div id="fig2" class="hide"></div>
+                    <!--        sød pige        -->
+                    <div id="fig4" class="hide"></div>
+                    <!--                ond pige-->
+                    <div id="fig3" class="hide"></div>
+                    <!--                dreng-->
+                    <div id="fig5" class="hide"></div>
+                    <!--                spørgsmål til sødpige-->
+                    <div id="fig6" class="hide"></div>
+                    <!--                spørgsmål om ond pige-->
+                    <div id="fig7" class="hide"></div>
+                    <!--              spørgsmål om dreng  -->
+                    <div id="fig8" class="hide"></div>
+                    <!--                svar på sød pige spørgsmål-->
+                    <div id="fig9" class="hide wrong"></div>
+                    <div id="fig10" class="hide right"></div>
+                    <!--                svar på ond pige spørgsmål-->
+                    <div id="fig11" class="hide right"></div>
+                    <div id="fig12" class="hide wrong"></div>
+                    <!--                svar på drengens spørgsmål-->
+                    <div id="fig13" class="hide wrong"></div>
+                    <div id="fig14" class="hide right"></div>
+                    <div id="fig15" class="hide"></div>
+                    <div id="fig16" class="hide"></div>
+                    <div id="fig17" class="hide"></div>
 
+                </div>
+
+                <div id="game_ui">
+                    <div id="pointsholder" class="hide"></div>
+                    <div id="points" class="hide"></div>
+                    <div id="liv">
+                        <div id="heart1" class="heart"></div>
+                        <div id="heart2" class="heart"></div>
+                        <div id="heart3" class="heart"></div>
                     </div>
 
                 </div>
-
             </div>
 
-            <div id="settings_close">
-            </div>
+            <div id="start"></div>
+            <div id="settings"></div>
+            <div id="settings_screen" class="hide">
 
+                <div id="setting_effekt_sound">
+
+                    <div id="sfx">
+                        <div id="sfx_on" class=""></div>
+
+                    </div>
+
+                    <div id="sfx">
+                        <div id="sfx_off" class="hide"></div>
+
+                    </div>
+
+                </div>
+                <div id="setting_music">
+                    <div id="setting_music_sound">
+
+                        <div id="music">
+                            <div id="music_on"></div>
+
+                        </div>
+
+                        <div id="music1">
+                            <div id="music_off" class="hide"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div id="settings_close">
+                </div>
+            </div>
         </div>
 
     </div>
 
-    <div id="gameover"></div>
-    <div id="levelcomplete"></div>
 
-    <script src="script.js"></script>
+    <div id="gameover" class="hide"></div>
+    <div id="levelcomplete" class="hide"></div>
+
+    <a href="javascript:history.go(0)">
+        <div id="replaygameover" class="hide"></div>
+    </a>
+    <a href="javascript:history.go(0)">
+        <div id="replaycomplete" class="hide"></div>
+    </a>
+
+
+    <div id="dans" class="hide"></div>
+
+    <div id="linkgameover" class="hide">
+
+        <a href="http://privatsnak.dk/10-12/?gclid=CjwKCAiA8rnfBRB3EiwAhrhBGkrEPWpnvd7oJT_fILMp6Bt_6yzpiZPctopM-bg-rxEmmgpRIQOKTxoCQJgQAvD_BwE"> Privatsnak.dk</a>
+    </div>
+
+
+    <div id="linkcomplete" class="hide">
+        <a href="http://privatsnak.dk/10-12/?gclid=CjwKCAiA8rnfBRB3EiwAhrhBGkrEPWpnvd7oJT_fILMp6Bt_6yzpiZPctopM-bg-rxEmmgpRIQOKTxoCQJgQAvD_BwE"> Privatsnak.dk</a>
+    </div>
+
+
+
+    <audio id="musik">
+        <source src="baggrundsmusik.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="click">
+        <source src="clickSound.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="jaLyd">
+        <source src="jaLyd.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="buzz">
+        <source src="buzzLyd.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="winning">
+        <source src="winning.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="loose">
+        <source src="loose.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <script src="script.js">
+
+    </script>
 </body>
 
 </html>
