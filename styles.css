@@ -17,6 +17,18 @@
     z-index: 1;
 }
 
+#headline {
+    background-image: url(billeder/overskrift.svg);
+    background-repeat: no-repeat;
+    width: 80vw;
+    height: 17vw;
+    background-size: 100%;
+    position: absolute;
+    z-index: 3;
+    top: 0.1vw;
+    left: 8vw;
+}
+
 #pige1 {
 
     background-size: cover;
@@ -27,7 +39,7 @@
     height: 50vw;
     position: absolute;
     top: 18vw;
-    left: 68vw;
+    left: 80vw;
     z-index: 2;
 
 }
@@ -43,7 +55,7 @@
     height: 50vw;
     position: absolute;
     top: 15vw;
-    left: 59vw;
+    left: 70vw;
     z-index: 2;
 
 }
@@ -55,11 +67,11 @@
     background-image: url("billeder/pige3.svg");
     background-repeat: no-repeat;
     background-size: 80%;
-    width: 22vw;
+    width: 20vw;
     height: 50vw;
     position: absolute;
-    top: 20vw;
-    left: 46vw;
+    top: 25vw;
+    left: 59vw;
     z-index: 2;
 
 }
@@ -69,8 +81,8 @@
 #ond {
     position: absolute;
     background-size: cover;
-    top: 18vw;
-    width: 26vw;
+    top: 20vw;
+    width: 25vw;
     height: 43vw;
     z-index: 3;
     background-image: url(billeder/ondpige_sprite.svg);
@@ -100,7 +112,7 @@
     }
 
     100% {
-        left: 120px;
+        left: 95px;
     }
 }
 
@@ -119,7 +131,7 @@
         }
 
         100% {
-            left: 180px;
+            left: 130px;
         }
     }
 }
@@ -139,7 +151,7 @@
         }
 
         100% {
-            left: 250px;
+            left: 180px;
         }
     }
 }
@@ -159,7 +171,7 @@
         }
 
         100% {
-            left: 360px;
+            left: 250px;
         }
     }
 }
@@ -179,7 +191,7 @@
         }
 
         100% {
-            left: 450px;
+            left: 300px;
         }
     }
 }
@@ -191,11 +203,11 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-size: cover;
-    width: 30vw;
-    height: 13vw;
+    width: 25vw;
+    height: 11vw;
     position: absolute;
-    top: 6vw;
-    left: 33vw;
+    top: 24vw;
+    left: 35vw;
     z-index: 3;
     cursor: pointer;
 }
@@ -449,7 +461,7 @@
 }
 
 #fig17 {
-    background-image: url(billeder/dreng_sprite_screen.svg);
+    background-image: url(billeder/complete.svg);
     background-repeat: no-repeat;
     width: 34vw;
     height: 58vw;
@@ -631,7 +643,7 @@
 }
 
 #levelcomplete {
-    background-image: url("billeder/COMPLETE.svg");
+    background-image: url("billeder/won.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100%;
@@ -676,7 +688,7 @@
 
 
 #linkcomplete {
-    font-size: 2.5rem;
+    font-size: 1rem;
     position: absolute;
     top: 39vw;
     left: 49vw;
@@ -881,6 +893,58 @@
         position: absolute;
         top: 24vw;
         left: 25vw;
+        z-index: 2;
+        cursor: pointer;
+        font-family: 'futura', sans-serif;
+    }
+}
+
+@media only screen and (min-width: 736px) {
+
+    #linkcomplete {
+        font-size: 1.5rem;
+        position: absolute;
+        top: 39vw;
+        left: 49vw;
+        z-index: 2;
+        cursor: pointer;
+        font-family: 'futura', sans-serif;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    #linkcomplete {
+        font-size: 2rem;
+        position: absolute;
+        top: 39vw;
+        left: 49vw;
+        z-index: 2;
+        cursor: pointer;
+        font-family: 'futura', sans-serif;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+
+    #linkcomplete {
+        font-size: 2.5rem;
+        position: absolute;
+        top: 40vw;
+        left: 49vw;
+        z-index: 2;
+        cursor: pointer;
+        font-family: 'futura', sans-serif;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+
+    #linkcomplete {
+        font-size: 3.5rem;
+        position: absolute;
+        top: 39vw;
+        left: 49vw;
         z-index: 2;
         cursor: pointer;
         font-family: 'futura', sans-serif;

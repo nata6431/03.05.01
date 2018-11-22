@@ -27,6 +27,8 @@ function showStart() {
     document.querySelector("#ond").classList.add("gaa");
     document.querySelector("#play").classList.remove("hide");
     document.querySelector("#play").classList.add("pulse");
+    document.querySelector("#headline").classList.remove("hide");
+
     document.querySelector("#menu_background").classList.remove("hide");
 
 
@@ -46,6 +48,8 @@ function startGame() {
     document.querySelector("#play").classList.remove("pulse");
     document.querySelector("#play").classList.add("hide");
     document.querySelector("#ond").classList.remove("gaa");
+    document.querySelector("#headline").classList.add("hide");
+
     document.querySelector("#menu_background").classList.add("hide");
     document.querySelector("#game_background").classList.remove("hide");
 
